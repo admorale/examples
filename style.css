@@ -1,0 +1,51 @@
+.heading1 {
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+    color: blue;
+    }
+section, aside {
+    float: left;
+    width: 47%;
+    height: 450px;
+    padding: 1%;
+    margin: 1% 1% 1% 0%;
+    background: #f2f2f2;
+    overflow:scroll;
+    }
+.perfil, .service {
+    float:left;
+    width: 25%;
+    padding: 0px 5px 0px 0px;
+}
+.text-columns p {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 2px solid #ccc;
+    text-align: justify;
+    padding: 0% 1% 1% 1%;
+    margin-bottom: 5px;
+}
+/* restoring the normal document flow after these elements */
+.clear_float:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* A little bit of padding at the left to align Heading with paragraph */
+.text-columns h2 {
+    padding: 0% 0% 0% 1%;
+}
+.service {
+    background: #f2f2f2;
+    float: left;
+    width: 29.33%;
+    margin:1%;
+    padding: 1%;
+    text-align: center;
+}
+/* Clipping elements example */
+.clipped {
+    max-height: 500px;
+    overflow:hidden;
+}
